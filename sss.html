@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Stephen | Personal Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+  <style>
+    /* Gradient background & base styles */
+    body {
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #6b73ff 0%, #000dff 100%);
+      color: white;
+      line-height: 1.7;
+      padding: 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h1, h2, h3 {
+      color: #fff;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    .section {
+      background: rgba(255 255 255 / 0.1);
+      margin-bottom: 3rem;
+      padding: 1.5rem;
+      border-radius: 10px;
+      opacity: 0;
+      transform: translateY(20px);
+      animation: fadeInUp 0.8s forwards;
+    }
+    /* Staggered animation delays */
+    .section:nth-child(1) { animation-delay: 0.2s; }
+    .section:nth-child(2) { animation-delay: 0.4s; }
+    .section:nth-child(3) { animation-delay: 0.6s; }
+    .section:nth-child(4) { animation-delay: 0.8s; }
+    .section:nth-child(5) { animation-delay: 1s; }
+    .section:nth-child(6) { animation-delay: 1.2s; }
+    .section:nth-child(7) { animation-delay: 1.4s; }
+    .section:nth-child(8) { animation-delay: 1.6s; }
+
+    @keyframes fadeInUp {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    .highlight {
+      color: #ffdd57;
+      font-weight: bold;
+    }
+
+    ul {
+      padding-left: 1.5rem;
+    }
+
+    .tagline {
+      font-style: italic;
+      color: #ddd;
+      margin-bottom: 2rem;
+    }
+
+    .table {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+      gap: 1rem;
+    }
+
+    .table div {
+      background: rgba(255 255 255 / 0.15);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    }
+
+    /* Contact section styles */
+    #contact h2 {
+      margin-bottom: 1rem;
+    }
+
+    .contact-link {
+      color: #ffdd57;
+      font-weight: bold;
+      transition: color 0.3s ease, text-shadow 0.3s ease;
+    }
+
+    .contact-link:hover {
+      color: #fff;
+      text-shadow: 0 0 8px #ffdd57;
+    }
+
+    /* Smooth scrolling */
+    html {
+      scroll-behavior: smooth;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>Stephen's Portfolio</h1>
+  <p class="tagline">“From Purpose to Passion, From Passion to Impact.”</p>
+
+  <div class="section" id="about">
+    <h2>🌟 About Me</h2>
+    <p>I'm <span class="highlight">Stephen</span>, 16, just completed Class 12 (PCM + CS). I'm a dreamer, believer, and learner with a mission to glorify God and build a creative life of impact. My heart is in Jesus, my hands are in media, design, and people work.</p>
+  </div>
+
+  <div class="section">
+    <h2>🔹 Core Values</h2>
+    <ul>
+      <li>✝️ <strong>Faith First</strong> – Jesus is my foundation.</li>
+      <li>💡 <strong>Excellence</strong> – Always give my best.</li>
+      <li>💬 <strong>Authenticity</strong> – Real over perfect.</li>
+      <li>📚 <strong>Learning</strong> – Growth is daily.</li>
+      <li>🤝 <strong>Impact</strong> – Bless others through what I do.</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔹 Skills & Interests</h2>
+    <div class="table">
+      <div><strong>🎨 Graphic Design</strong><br>Canva, Figma, Adobe Express, social media & church slides</div>
+      <div><strong>🎬 Media & Video</strong><br>OBS, Freeshow, DSLR & iPhone streaming</div>
+      <div><strong>🎧 Music & Audio</strong><br>Learning Logic Pro, Worship, Music Production</div>
+      <div><strong>💻 Tech & Code</strong><br>HTML basics, CS Student, Prompting, Cloud Computing</div>
+      <div><strong>📈 Business</strong><br>EdenWear & Namma Veetu Soru startup ideas</div>
+      <div><strong>🗣 Languages</strong><br>English, Tamil (fluent), Hindi, Malayalam, Telugu (basic)</div>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>🔹 Projects & Initiatives</h2>
+    <ul>
+      <li><strong>All to Jesus Church Media Team:</strong> Lyrics, live stream, creative direction</li>
+      <li><strong>Namma Veetu Soru:</strong> Healthy, local meal service for students & workers</li>
+      <li><strong>EdenWear:</strong> Christian apparel brand concept</li>
+      <li><strong>Waffle Court (Work):</strong> 1 year as a server – customer & time management</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔹 My Testimony</h2>
+    <p>I was addicted to games and pornography from age 12. But Jesus broke those chains at 16. I now walk in freedom, lead in purity, and live to encourage others. My story is one of grace, not shame.</p>
+  </div>
+
+  <div class="section">
+    <h2>🔹 2025 Goals</h2>
+    <ul>
+      <li>🎧 Master Logic Pro, cloud, UI/UX, animation</li>
+      <li>💪 Gym and physique development</li>
+      <li>🎯 Board + JEE exam success</li>
+      <li>👕 Launch EdenWear & meal brand</li>
+      <li>📱 Pixel 8a, MacBook Air M2, Yamaha SX700 (EMI)</li>
+      <li>💒 Gospelize & grow ministry</li>
+      <li>🎁 Tithe 50% of income, post daily journey online</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔹 Why I Stand Out</h2>
+    <ul>
+      <li>🎯 I’ve battled silently and emerged stronger</li>
+      <li>⚡ I don’t wait—I create opportunities</li>
+      <li>🛠 I believe in building something eternal</li>
+      <li>💙 People &gt; profit, Purpose &gt; platform</li>
+    </ul>
+  </div>
+
+  <div class="section">
+    <h2>🔹 Final Words</h2>
+    <p>I’m not applying for admission—I’m offering you a passionate learner, a servant, a leader, and a kingdom-minded creator. Let’s build something eternal together. I’m ready.</p>
+  </div>
+
+  <div class="section" id="contact">
+    <h2>📞 Contact Me</h2>
+    <p>Email: <a href="mailto:your.email@example.com" class="contact-link">your.stephendavila01@email.com</a></p>
+    <p>Phone: <a href="tel:+1234567890" class="contact-link">+91 82480 84972</a></p>
+  </div>
+
+</body>
+</html>
